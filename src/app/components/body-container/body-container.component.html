@@ -1,0 +1,150 @@
+
+
+<div class="container bodyClassContainer justify-content-center">
+  <div class="row newActionButtonGroup">
+    <div class="col-lg-6 col-md-3" >
+      <div class="NewGroup-2">
+        <!-- Create New Action -->
+        <div class="Create-New-Action-inner">
+          <span>Create New Action</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-3"></div>
+    <div class="col-lg-1 col-md-3 ml-3">
+      <div class="NewGroup-4 blueButtonGroup">
+        <!-- Main CTA -->
+        <div class="Main-CTA">
+          <!-- ButtonCTAPrimaryActive -->
+          <div class="ButtonCTAPrimaryActive">
+            <!-- Main CTA_1 -->
+            <div class="ButtonCTAPrimaryActive">
+              <!-- Button Base Copy -->
+              <div class="Button-Base-Copy"></div>
+              <!-- End of Button Base Copy -->
+              <!-- k Create New -->
+              <div class="k-Create-New-inner"><span>+ New Campaign</span></div>
+              <!-- End of k Create New -->
+            </div>
+            <!-- End of Main CTA_1 -->
+          </div>
+          <!-- End of ButtonCTAPrimaryActive -->
+        </div>
+        <!-- End of Main CTA -->
+      </div>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-lg-4 col-md-6" *ngFor="let item of newArray" style="margin-top: 15px;">
+      <div
+        data-toggle="modal"
+        data-target="#exampleModal"
+        (click)="nameClickFunc(item.name)"
+      >
+        <!-- ButtonMessage Button_1 -->
+        <div class="ButtonMessage-Button_1">
+          <!-- Group Copy 4 -->
+          <div class="Group-Copy-4">
+            <!-- Bitmap -->
+            <div class="Bitmap"></div>
+            <!-- End of Bitmap -->
+            <!-- Mobile Push Notifica -->
+            <div class="Mobile-Push-Notifica-inner" style="cursor: pointer;">
+              <span>{{item.name}}</span>
+            </div>
+            <!-- End of Mobile Push Notifica -->
+          </div>
+          <!-- End of Group Copy 4 -->
+        </div>
+        <!-- End of ButtonMessage Button_1 -->
+      </div>
+    </div>
+   
+  </div>
+
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog d-flex justify-content-center align-items-center" style="margin-top: 10vw;" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">{{popupValueTitle}}</h1>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <label for="" style="font-size: 20px;">Please input your message</label>
+          <input maxlength="10" type="text" [(ngModel)]="inputData"  style="text-decoration: none; width: 30vw; border-radius: 4px; box-shadow: 0px 0px  0px 2px  rgb(18,209,209);">
+        </div>
+        <div class="modal-footer">
+          <button
+            style="padding: 10px; border-radius: 4px;"
+            type="button"
+            class="btn btn-secondary"
+            data-dismiss="modal"
+            (click)="clear()"
+          >
+            Close
+          </button>
+          <div
+            style="
+              height: 46px;
+              font-size: 16px;
+              font-weight: 500;
+              background-color: rgb(18, 209, 209);
+              color: white;
+              padding: 10px;
+              border-radius: 4px;
+              text-decoration: none;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+            "
+          >
+            <a   data-dismiss="modal" (click)="saveButtonFunc()">Save changes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button style="display: none;" type="button" id="inputModalOpen" class="btn btn-primary" data-toggle="modal" data-target="#inputModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div style="margin-top: 100px; color: white;" class="modal fade" id="inputModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content"  style="background-color: rgb(18,209,209); font-size : 40px;">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Your İnput : </h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex" style="display: flexbox;">
+       {{inputData}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

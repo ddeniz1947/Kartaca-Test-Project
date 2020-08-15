@@ -1,0 +1,314 @@
+
+@media only screen and (max-width: 1200px) {
+    .sideBarAppClass{
+        display: none;
+    }
+    .minLeftSideBar{
+        display: block;
+    }
+
+   
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .sideBarAppClass{
+        display: block;
+    }
+    .minLeftSideBar{
+        display: none;
+    }
+   
+    
+}
+
+.NewGroup-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 50px;
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+  }
+.NewGroup-1_2 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background-color: transparent;
+  }
+  
+   .Main-Menu_1 {
+    padding: 38px 52px 0px 31px;
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+   .NewGroup-1_3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 103px;
+    height: 25px;
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+  }
+  
+   .MenuDashboardPassive {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background-color: transparent;
+  }
+  
+   .CombinedShape-Copy-2 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .NewGroup-2_1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 167px;
+    height: 25px;
+    margin: 24px 0px 0px 0px;
+    background-color: transparent;
+  }
+
+  .MenuDashboardPassive {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background-color: transparent;
+  }
+    
+  .Dashboard-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 3px 0px 0px 15px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  
+  .Dashboard-inner2 {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 3px 0px 0px 15px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(18,  209, 209, 1);
+    text-align: left;
+    white-space: pre;
+
+  }
+  .NewGroup-3_1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 121px;
+    height: 27px;
+    margin: 22px 0px 0px 0px;
+    background-color: transparent;
+  }
+
+  .NewGroup-4_1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 133px;
+    height: 128px;
+    margin: 13px 0px 0px 10px;
+    background-color: transparent;
+  }
+
+  .Rectangle-4 {
+    position: relative;
+    width: 1px;
+    height: 122px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background: rgba(235,  237, 243, 1);
+  }
+
+  .NewGroup-1_7 {
+    position: relative;
+    width: 110px;
+    height: 124px;
+    margin: 4px 0px 0px 22px;
+    display: block;
+    background-color: transparent;
+  }
+  .Events-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 0px 0px 0px 0px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  
+
+  .Funnel-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 12px 0px 0px 0px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  .NewGroup-5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 104px;
+    height: 28px;
+    margin: 21px 0px 0px 0px;
+    background-color: transparent;
+  }
+
+  .NewGroup-6 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 125px;
+    height: 23px;
+    margin: 13px 0px 50px 10px;
+    background-color: transparent;
+  }
+  
+  .Rectangle-4-Copy {
+    position: relative;
+    width: 1px;
+    height: 23px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    background: rgba(235,  237, 243, 1);
+  }
+  
+  .Implementation-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 4px 0px 0px 22px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  .Messages--CampaignsActive {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 235px;
+    height: 44px;
+    margin: -757px 0px 713px 15px;
+    background-color: transparent;
+  }
+  .Active_Element {
+    position: relative;
+    width: 235px;
+    height: 44px;
+    margin: 0px 0px 0px 0px;
+  }
+
+    
+  .Actions--Campaigns_1-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: -27px 0px 0px 49px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(18,  209, 209, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  .MenuDashboardPassive_2 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin: -25px 0px 12px 16px;
+    display: block;
+    background-color: transparent;
+  }
+
+  .Segmentation-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 5px 0px 0px 15px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  .Integration-inner {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 22px;
+    margin: 6px 0px 0px 15px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 14px;
+    color: rgba(62,  67, 86, 1);
+    text-align: left;
+    white-space: pre;
+  }
+  
