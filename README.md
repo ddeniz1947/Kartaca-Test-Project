@@ -1,7 +1,7 @@
 # TestProject
 Proje Netlify Üzerinde Canlıya alınmıştır. Canlı Proje Linki : https://kartaca-test-project.netlify.app/
 
-Localde Çalıştırmak için  => "npm install" Ardından "ng serve --open" komutlarının proje dizini içinde kullanılması yeterli.
+Localde Çalıştırmak için  => "npm install" Ardından "ng serve --open" komutlarının proje dizini içinde kullanılması yeterlidir.
 
 ## Proje Üzerinde Yapılanlar 
 * Sol Taraftaki Menü üzerindeki yazıların bazılarını açılır kapanır şekilde düzenledim. Default olarak sayfa açıldığında kapalı olarak geliyor. 
