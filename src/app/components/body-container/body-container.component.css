@@ -191,6 +191,7 @@
       margin-left: 100px;
   }
 }
+
 @media only screen and (max-width: 750px) {
   .bodyClassContainer{
       margin-left: 50px;
@@ -198,6 +199,14 @@
   .newActionButtonGroup{
     width: 100px !important;
   }
+}
+
+@media only screen and (min-width:1300px){
+.bodyClassContainer{
+  width: 2000px ;
+  margin-left: 40px;
+}
+
 }
 /*
 @media only screen and (max-width: 1200px) {
