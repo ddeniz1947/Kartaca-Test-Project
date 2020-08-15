@@ -312,3 +312,11 @@
     white-space: pre;
   }
   
+
+  .bodyComponentContainerClass{
+    width: 100% !important;
+  }
+
+  .appHeaderGroupClass{
+    
+  }

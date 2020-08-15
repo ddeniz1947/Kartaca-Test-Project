@@ -185,36 +185,90 @@
   background-color: transparent;
 }
 
-
+.labelForModal{
+  font-size: 20px;
+}
+@media only screen and (max-width: 1500px) and (min-width : 1000px) {
+  .blueButtonGroup{
+    margin-left: -5vw !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+   .rowGroup{
+     margin-right: 10px !important;
+   }
+}
+@media only screen and (max-width: 767px) {
+  .blueButtonGroup{
+    margin-left: 40px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+.bodyMarginClass{
+  width: 100vw !important;
+  margin-left: 10vw;
+}
+.Bitmap{
+  width: 100% !important;
+}
+.Group-Copy-4{
+  width: 100% !important;
+}
+.ButtonMessage-Button_1{
+  width: 100% !important;
+}
+}
 @media only screen and (max-width: 1200px) and (min-width:1000px) {
-  .bodyClassContainer{
-      margin-left: 100px;
+  .bodyMarginClass{
+      margin-left: 50px;
+  }
+  .Bitmap{
+    width: 23vw !important;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width:1199px) {
+  .Bitmap{
+     width: 22vw !important;
   }
 }
 
 @media only screen and (max-width: 750px) {
   .bodyClassContainer{
-      margin-left: 50px;
+      margin-left: 30px;
   }
   .newActionButtonGroup{
     width: 100px !important;
   }
+  .inputBoxForModal{
+    margin-left: 20px;
+  }
+  .labelForModal{
+    font-size: 17px !important;
+  }
 }
 
-@media only screen and (min-width:1300px){
-.bodyClassContainer{
+@media only screen and (min-width:1700px){
+.bodyMarginClass{
   width: 2000px ;
   margin-left: 40px;
 }
 
 }
-/*
-@media only screen and (max-width: 1200px) {
-  .bodyClassContainer {
-    margin-top: 50px;
+@media only screen and (min-width:1399px){
+.Bitmap{
+  width: 22vw !important;
+}
+  
+  }
+
+@media only screen and (max-width: 1000px) and (min-width : 767px){
+  .Bitmap {
+    width: 30vw !important;
   }
 }
 
+/*
 @media only screen and (max-width: 1200px) {
   .firstFlex {
     margin-left: 15px !important;
