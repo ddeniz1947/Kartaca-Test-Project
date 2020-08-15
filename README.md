@@ -1,4 +1,5 @@
 # TestProject
+Proje Netlify Üzerinde Canlıya alınmıştır. Canlı Linki : https://kartaca-test-project.netlify.app/
 
 Çalıştırmak için  => "npm install" Ardından "ng serve --open" demeniz yeterli.
 
