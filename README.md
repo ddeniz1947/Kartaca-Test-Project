@@ -1,7 +1,15 @@
 # TestProject
-Proje Netlify Üzerinde Canlıya alınmıştır. Canlı Linki : https://kartaca-test-project.netlify.app/
+Proje Netlify Üzerinde Canlıya alınmıştır. Canlı Proje Linki : https://kartaca-test-project.netlify.app/
 
-Çalıştırmak için  => "npm install" Ardından "ng serve --open" demeniz yeterli.
+Localde Çalıştırmak için  => "npm install" Ardından "ng serve --open" komutlarının proje dizini içinde kullanılması yeterli.
+
+## Proje Üzerinde Yapılanlar 
+* Sol Taraftaki Menü üzerindeki yazıların bazılarını açılır kapanır şekilde düzenledim. Default olarak sayfa açıldığında kapalı olarak geliyor. 
+* Olabildiğince tıklanılabilir menü eklemeye çalıştım. Kullanıcı adı yazısı , Ayarlar , Bildirim butonlarında menüler bulunmakta.
+* Fully - Responsive yapmaya çalıştım. Üç farklı tarayıcıda denedim. Tablet boyutunda yapılara dokunmazken, Telefon boyutları için yine bazı elemenleri kaldırarak , Açılır kapanır , dropdown menüler ekledim. Kullanıcı tarafında ulaşılması ve kullanılmasının daha kolay olacağını düşündüm. 
+* Sayfa üzerindeki Box-Button 'lar tıklanılabilir olduğu gibi , data alıp gönderme yapılarını örneklemek amacıyla , Modal popuplar ekledim. Butonlar üzerindeki yazılar , yazdığım angular servisi üzerinde proje dosyası içerisindeki "data.json" üzerinden çekilip ekrana düşürülüyor. Bu sayede yeni buton eklenmek istenirse sadece "data.json" içinde yeni buton verisi eklenmesi yeterli.
+* Bu yapı değiştirilmek istenilirse (Web API için) , httpClient kullanımı sayesinde aynı servis içinde , localden çekilip subscribe olunan datalar yerine ; httpClient ile api'ye subscribe olup dataları aynı şekilde çekmek yeterli.
+## Saygılarımla.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
