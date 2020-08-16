@@ -4,6 +4,7 @@ Proje Netlify Üzerinde Canlıya alınmıştır. Canlı Proje Linki : https://ka
 Localde Çalıştırmak için  => "npm install" Ardından "ng serve --open" komutlarının proje dizini içinde kullanılması yeterlidir.
 
 ## Proje Üzerinde Yapılanlar 
+* Ekran üzerindeki elementlerin yüzde 90 'ına yakınını kullanabildim.
 * Sol Taraftaki Menü üzerindeki yazıların bazılarını açılır kapanır şekilde düzenledim. Default olarak sayfa açıldığında kapalı olarak geliyor. 
 * Olabildiğince tıklanılabilir menü eklemeye çalıştım. Kullanıcı adı yazısı , Ayarlar , Bildirim butonlarında menüler bulunmakta.
 * Fully - Responsive yapmaya çalıştım. Üç farklı tarayıcıda denedim. Tablet boyutunda yapılara dokunmazken, Telefon boyutları için yine bazı elemenleri kaldırarak , Açılır kapanır , dropdown menüler ekledim. Kullanıcı tarafında ulaşılması ve kullanılmasının daha kolay olacağını düşündüm. 
