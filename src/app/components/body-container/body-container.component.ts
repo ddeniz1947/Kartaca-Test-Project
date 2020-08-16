@@ -13,6 +13,7 @@ export class BodyContainerComponent implements OnInit {
   popupValueTitle = "";
   newArray = [];
   inputData = "";
+  inputNewCampText = "";
   private subscriptions = new Subscription();
 
   constructor(private dataService : DataService) { }
@@ -32,9 +33,22 @@ export class BodyContainerComponent implements OnInit {
   clear(){
     this.inputData = "";
   }
+  createNewFunc(){
+    document.getElementById("inputNewCampButton").click();
+  }
 
   saveButtonFunc(){
     document.getElementById("inputModalOpen").click();
+    this.clearCampFunc();
   }
 
+  AddNewCampFunc(){
+    var newData = {"name" : this.inputNewCampText};
+    this.newArray.push(newData);
+    this.inputNewCampText = "";
+  }
+
+  clearCampFunc(){
+    this.inputNewCampText = "";
+  }
 }
